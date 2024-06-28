@@ -1,0 +1,107 @@
+.ancestorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    min-height: 100vh;
+}
+
+.headerContainer {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.todoInput {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.addButton {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+}
+
+.todoContainer {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.todoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.infoContainer input[type="text"] {
+    margin-right: 10px;
+}
+
+.infoContainer input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+.todoDescription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.descriptionText {
+    flex: 1;
+    margin-right: 10px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+
+.deleteButton {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; 
+}
+
+
+.editButton {
+    margin-left: 10px;
+}
+
+.saveButton {
+    margin-left: 10px;
+}
+
+.deleteButton {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
